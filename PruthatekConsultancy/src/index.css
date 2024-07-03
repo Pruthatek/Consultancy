@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Euclid Circular";
+  src: local("Euclid Circular A Regular"),
+       url("./fonts/euclid-circular-a/Euclid Circular A Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Euclid Circular";
+  src: local("Euclid Circular A Bold"),
+       url("./fonts/euclid-circular-a/Euclid Circular A Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Euclid Circular";
+  src: local("Euclid Circular A Light"),
+       url("./fonts/euclid-circular-a/Euclid Circular A Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Euclid Circular";
+  src: local("Euclid Circular A Medium"),
+       url("./fonts/euclid-circular-a/Euclid Circular A Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Euclid Circular";
+  src: local("Euclid Circular A Semibold"),
+       url("./fonts/euclid-circular-a/Euclid Circular A Semibold.ttf") format("truetype");
+}
+
+
+
