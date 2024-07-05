@@ -25,6 +25,9 @@ const GetInTouch = () => {
             console.log("Error", data);
             setResult(data.message);
         }
+        setTimeout(() => {
+          setResult("");
+      }, 2000);
     };
 
     const onSubmit2 = async (event) => {
@@ -48,6 +51,9 @@ const GetInTouch = () => {
           console.log("Error", data);
           setResult2(data.message);
       }
+      setTimeout(() => {
+        setResult2("");
+    }, 2000);
   };
   return (
     <>

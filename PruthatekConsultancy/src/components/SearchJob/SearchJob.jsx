@@ -163,6 +163,9 @@ const SearchJob = () => {
             console.log("Error", data);
             setResult(data.message);
         }
+        setTimeout(() => {
+          setResult("");
+      }, 2000);
     };
 
   return (
