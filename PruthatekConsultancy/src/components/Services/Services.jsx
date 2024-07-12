@@ -22,7 +22,6 @@ const Services = () => {
     
       <div className='container w-[90%]   bg-white flex'>
         <div className='w-full flex lg:flex-row flex-col gap-x-10 gap-y-10'>
-
         <div className='lg:w-[50%] w-full flex flex-col gap-y-10'>
        
           <div className='w-[100%] md:h-[692px] h-[520px] overflow-hidden md:rounded-[40px] rounded-[30px] relative z-40 group'>
