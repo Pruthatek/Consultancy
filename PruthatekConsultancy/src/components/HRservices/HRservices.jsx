@@ -97,10 +97,10 @@ const HRservices = () => {
                <div className=' fixed z-40  top-0 left-0 right-0 bottom-0 bg-black bg-opacity-20 flex justify-center items-center'>
                  <div className='lg:w-[80%] w-[90%]  h-fit py-10 md:rounded-[50px] rounded-[30px] relative  bg-white lg:px-10 md:px-6 px-4 gap-x-8 flex md:flex-row flex-col  items-center '>
                    <X size={28} color={"#AEAEB2"} className='absolute md:right-8 right-4 top-8 cursor-pointer' onClick={changeContent}/>
-                   <img src={pop.img} className='md:w-[50%] w-[80%] h-[80%] rounded-[18px] '/>
+                   <img src={pop.img} className='md:w-[50%] w-[80%] md:h-[80%] h-[70%] rounded-[18px] '/>
                    <div className=''>
-                    <p className='font-[600] lg:text-[35px] md:text-[30px] text-[26px] text-black font-euclid mt-4 md:mt-0'>{pop.name}</p>
-                    <p className='font-[400] lg:text-[20px] md:text-[18px] text-[16px] text-[#101010] font-euclid md:mt-5 mt-3 md:leading-9 leading-8'>{pop.content}</p>
+                    <p className='font-[600] lg:text-[35px] md:text-[30px] text-[22px] text-black font-euclid mt-4 md:mt-0'>{pop.name}</p>
+                    <p className='font-[400] lg:text-[20px] md:text-[18px] text-[12px] text-[#101010] font-euclid md:mt-5 mt-3 md:leading-9 leading-6'>{pop.content}</p>
                    </div>
                  </div>   
                </div>
