@@ -1,38 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
   font-family: "Euclid Circular";
   src: local("Euclid Circular A Regular"),
-       url("./fonts/euclid-circular-a/Euclid Circular A Regular.ttf") format("truetype");
+    url("./fonts/euclid-circular-a/Euclid Circular A Regular.ttf")
+      format("truetype");
 }
 
 @font-face {
   font-family: "Euclid Circular";
   src: local("Euclid Circular A Bold"),
-       url("./fonts/euclid-circular-a/Euclid Circular A Bold.ttf") format("truetype");
+    url("./fonts/euclid-circular-a/Euclid Circular A Bold.ttf")
+      format("truetype");
 }
 
 @font-face {
   font-family: "Euclid Circular";
   src: local("Euclid Circular A Light"),
-       url("./fonts/euclid-circular-a/Euclid Circular A Light.ttf") format("truetype");
+    url("./fonts/euclid-circular-a/Euclid Circular A Light.ttf")
+      format("truetype");
 }
 
 @font-face {
   font-family: "Euclid Circular";
   src: local("Euclid Circular A Medium"),
-       url("./fonts/euclid-circular-a/Euclid Circular A Medium.ttf") format("truetype");
+    url("./fonts/euclid-circular-a/Euclid Circular A Medium.ttf")
+      format("truetype");
 }
 
 @font-face {
   font-family: "Euclid Circular";
   src: local("Euclid Circular A Semibold"),
-       url("./fonts/euclid-circular-a/Euclid Circular A Semibold.ttf") format("truetype");
+    url("./fonts/euclid-circular-a/Euclid Circular A Semibold.ttf")
+      format("truetype");
 }
-
-
-
